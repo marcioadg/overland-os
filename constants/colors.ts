@@ -1,0 +1,32 @@
+export const Colors = {
+  background: '#0A0A0A',
+  card: '#1A1A1A',
+  cardBorder: '#2A2A2A',
+  accent: '#F97316',
+  accentDark: '#C25B0A',
+  text: '#FFFFFF',
+  textSecondary: '#A0A0A0',
+  textMuted: '#606060',
+  success: '#22C55E',
+  warning: '#EAB308',
+  error: '#EF4444',
+  recovery: '#EF4444',
+  camp: '#22C55E',
+  nav: '#3B82F6',
+  safety: '#F97316',
+  misc: '#8B5CF6',
+  tabBar: '#111111',
+  tabBarBorder: '#222222',
+  inputBg: '#222222',
+  inputBorder: '#333333',
+  chipActive: '#F97316',
+  chipInactive: '#2A2A2A',
+};
+
+export const CategoryColors: Record<string, string> = {
+  Recovery: Colors.recovery,
+  Camp: Colors.camp,
+  Nav: Colors.nav,
+  Safety: Colors.safety,
+  Misc: Colors.misc,
+};
